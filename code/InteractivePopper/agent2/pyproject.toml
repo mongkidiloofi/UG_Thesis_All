@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arc-agent2"
+version = "0.1.0"
+description = "An interactive ARC-AGI-3 agent that learns symbolic dynamics with Popper"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+  "numpy==2.5.3",
+  "clingo==5.8.2",
+  "arcengine==0.9.3",
+  "arc-agi @ git+https://github.com/arcprize/ARC-AGI.git@f12822c4d550121c35a275008d964afbbed47d2f",
+  "popper @ git+https://github.com/logic-and-learning-lab/Popper.git@5c608d3ec87e4975866042fe326e9a317277e021",
+]
+
+[project.optional-dependencies]
+dev = ["ruff>=0.11"]
+
+[project.scripts]
+arc-agent2 = "arc_agent2.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+target-version = "py314"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

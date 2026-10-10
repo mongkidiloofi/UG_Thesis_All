@@ -1,0 +1,17 @@
+{
+  "task": "nextpixel",
+  "step": 53,
+  "accepted": true,
+  "folder": "learning/002_nextpixel",
+  "engine": "popper",
+  "score": [
+    36,
+    0,
+    324,
+    0
+  ],
+  "positives": 36,
+  "negatives": 324,
+  "rules": "nextpixel(V0,V1,V2):- absentpixel(V0,V1,V2),local_click(V0).\n",
+  "seconds": 1.903524507000384
+}

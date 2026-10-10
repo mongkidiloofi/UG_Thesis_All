@@ -1,0 +1,224 @@
+PyTorch Device : CUDA
+ARC API Key    : 09f820fa...bf7f (Configured)
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-09-24 18:09:29 | INFO | Successfully fetched 25 environment(s) from API
+INFO:arc_agi.base:Successfully fetched 25 environment(s) from API
+2026-09-24 18:09:29 | INFO | Created new scorecard: 95370f8b-032b-46f2-8c6b-bc3eae5f3b4a
+INFO:arc_agi.base:Created new scorecard: 95370f8b-032b-46f2-8c6b-bc3eae5f3b4a
+2026-09-24 18:09:30 | INFO | Successfully fetched metadata for game ls20
+INFO:arc_agi.base:Successfully fetched metadata for game ls20
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-09-24 18:09:31 | INFO | Successfully fetched 25 environment(s) from API
+INFO:arc_agi.base:Successfully fetched 25 environment(s) from API
+2026-09-24 18:09:31 | INFO | Created new scorecard: 4a405aba-e8cc-4e4d-a6b9-82524d0e46b8
+INFO:arc_agi.base:Created new scorecard: 4a405aba-e8cc-4e4d-a6b9-82524d0e46b8
+2026-09-24 18:09:32 | INFO | Successfully fetched metadata for game ls20
+INFO:arc_agi.base:Successfully fetched metadata for game ls20
+Training on CUDA (Baseline: 22 actions)...
+[█░░░░░░░░░░░░░░░░░░░]  12200/150000 ( 8.1%) | 123 it/s | ETA: 18m | ε: 1.00 | Eval: 130 acts (0%) | Best:  0.0%
+🎉 [Step 12220] UNLOCKED: Milestone 1: First Completion (132 actions, RHAE: 2.78%)
+Uploading first-win replay to ARC Online...
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-09-24 18:11:13 | INFO | Successfully fetched 25 environment(s) from API
+INFO:arc_agi.base:Successfully fetched 25 environment(s) from API
+2026-09-24 18:11:13 | INFO | Created new scorecard: 69084f04-34a3-4463-afc3-e4d43d66582c
+INFO:arc_agi.base:Created new scorecard: 69084f04-34a3-4463-afc3-e4d43d66582c
+2026-09-24 18:11:14 | INFO | Successfully fetched metadata for game ls20
+INFO:arc_agi.base:Successfully fetched metadata for game ls20
+2026-09-24 18:11:15 | INFO | Recording to recordings/69084f04-34a3-4463-afc3-e4d43d66582c/ls20-9607627b-c7de820c-3dd8-414c-8b27-45888ead9af8.jsonl
+INFO:arc_agi.base:Recording to recordings/69084f04-34a3-4463-afc3-e4d43d66582c/ls20-9607627b-c7de820c-3dd8-414c-8b27-45888ead9af8.jsonl
+2026-09-24 18:11:15 | INFO | Successfully reset game ls20-9607627b, guid=c7de820c-3dd8-414c-8b27-45888ead9af8, scorecard_id=69084f04-34a3-4463-afc3-e4d43d66582c
+INFO:arc_agi.base:Successfully reset game ls20-9607627b, guid=c7de820c-3dd8-414c-8b27-45888ead9af8, scorecard_id=69084f04-34a3-4463-afc3-e4d43d66582c
+2026-09-24 18:11:15 | INFO | Recording to recordings/69084f04-34a3-4463-afc3-e4d43d66582c/ls20-9607627b-c7de820c-3dd8-414c-8b27-45888ead9af8.jsonl
+INFO:arc_agi.base:Recording to recordings/69084f04-34a3-4463-afc3-e4d43d66582c/ls20-9607627b-c7de820c-3dd8-414c-8b27-45888ead9af8.jsonl
+2026-09-24 18:11:15 | INFO | Successfully reset game ls20-9607627b, guid=c7de820c-3dd8-414c-8b27-45888ead9af8, scorecard_id=69084f04-34a3-4463-afc3-e4d43d66582c
+INFO:arc_agi.base:Successfully reset game ls20-9607627b, guid=c7de820c-3dd8-414c-8b27-45888ead9af8, scorecard_id=69084f04-34a3-4463-afc3-e4d43d66582c
+2026-09-24 18:12:23 | INFO | Closed scorecard: 69084f04-34a3-4463-afc3-e4d43d66582c
+INFO:arc_agi.base:Closed scorecard: 69084f04-34a3-4463-afc3-e4d43d66582c
+🔗 Scorecard: https://arcprize.org/scorecards/69084f04-34a3-4463-afc3-e4d43d66582c
+[█████░░░░░░░░░░░░░░░]  38900/150000 (25.9%) |  92 it/s | ETA: 20m | ε: 0.56 | Eval: WIN (57 acts, 14.9%) | Best: 14.9%
+🎉 [Step 39000] UNLOCKED: Milestone 4: Cross 75% RHAE (RHAE: 91.49%)
+Uploading online replay to ARC...
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-09-24 18:16:37 | INFO | Successfully fetched 25 environment(s) from API
+INFO:arc_agi.base:Successfully fetched 25 environment(s) from API
+2026-09-24 18:16:37 | INFO | Created new scorecard: e3ac1ce9-2736-414a-b849-5666a3714528
+INFO:arc_agi.base:Created new scorecard: e3ac1ce9-2736-414a-b849-5666a3714528
+2026-09-24 18:16:38 | INFO | Successfully fetched metadata for game ls20
+INFO:arc_agi.base:Successfully fetched metadata for game ls20
+2026-09-24 18:16:39 | INFO | Recording to recordings/e3ac1ce9-2736-414a-b849-5666a3714528/ls20-9607627b-0ce13e42-a607-49bf-b7cb-763019448966.jsonl
+INFO:arc_agi.base:Recording to recordings/e3ac1ce9-2736-414a-b849-5666a3714528/ls20-9607627b-0ce13e42-a607-49bf-b7cb-763019448966.jsonl
+2026-09-24 18:16:39 | INFO | Successfully reset game ls20-9607627b, guid=0ce13e42-a607-49bf-b7cb-763019448966, scorecard_id=e3ac1ce9-2736-414a-b849-5666a3714528
+INFO:arc_agi.base:Successfully reset game ls20-9607627b, guid=0ce13e42-a607-49bf-b7cb-763019448966, scorecard_id=e3ac1ce9-2736-414a-b849-5666a3714528
+2026-09-24 18:16:39 | INFO | Recording to recordings/e3ac1ce9-2736-414a-b849-5666a3714528/ls20-9607627b-0ce13e42-a607-49bf-b7cb-763019448966.jsonl
+INFO:arc_agi.base:Recording to recordings/e3ac1ce9-2736-414a-b849-5666a3714528/ls20-9607627b-0ce13e42-a607-49bf-b7cb-763019448966.jsonl
+2026-09-24 18:16:39 | INFO | Successfully reset game ls20-9607627b, guid=0ce13e42-a607-49bf-b7cb-763019448966, scorecard_id=e3ac1ce9-2736-414a-b849-5666a3714528
+INFO:arc_agi.base:Successfully reset game ls20-9607627b, guid=0ce13e42-a607-49bf-b7cb-763019448966, scorecard_id=e3ac1ce9-2736-414a-b849-5666a3714528
+2026-09-24 18:16:51 | INFO | Closed scorecard: e3ac1ce9-2736-414a-b849-5666a3714528
+INFO:arc_agi.base:Closed scorecard: e3ac1ce9-2736-414a-b849-5666a3714528
+🔗 Scorecard: https://arcprize.org/scorecards/e3ac1ce9-2736-414a-b849-5666a3714528
+[█████░░░░░░░░░░░░░░░]  39400/150000 (26.3%) |  89 it/s | ETA: 20m | ε: 0.55 | Eval: WIN (23 acts, 91.5%) | Best: 91.5%
+🎉 [Step 39500] UNLOCKED: Milestone 5: Achieve 100% RHAE (RHAE: 115.00%)
+Uploading online replay to ARC...
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-09-24 18:16:56 | INFO | Successfully fetched 25 environment(s) from API
+INFO:arc_agi.base:Successfully fetched 25 environment(s) from API
+2026-09-24 18:16:56 | INFO | Created new scorecard: 3f9516ff-8d3f-4053-a013-76f8e4e98530
+INFO:arc_agi.base:Created new scorecard: 3f9516ff-8d3f-4053-a013-76f8e4e98530
+2026-09-24 18:16:57 | INFO | Successfully fetched metadata for game ls20
+INFO:arc_agi.base:Successfully fetched metadata for game ls20
+2026-09-24 18:16:58 | INFO | Recording to recordings/3f9516ff-8d3f-4053-a013-76f8e4e98530/ls20-9607627b-105b2457-8c1c-427e-8083-2efca07e2524.jsonl
+INFO:arc_agi.base:Recording to recordings/3f9516ff-8d3f-4053-a013-76f8e4e98530/ls20-9607627b-105b2457-8c1c-427e-8083-2efca07e2524.jsonl
+2026-09-24 18:16:58 | INFO | Successfully reset game ls20-9607627b, guid=105b2457-8c1c-427e-8083-2efca07e2524, scorecard_id=3f9516ff-8d3f-4053-a013-76f8e4e98530
+INFO:arc_agi.base:Successfully reset game ls20-9607627b, guid=105b2457-8c1c-427e-8083-2efca07e2524, scorecard_id=3f9516ff-8d3f-4053-a013-76f8e4e98530
+2026-09-24 18:16:59 | INFO | Recording to recordings/3f9516ff-8d3f-4053-a013-76f8e4e98530/ls20-9607627b-105b2457-8c1c-427e-8083-2efca07e2524.jsonl
+INFO:arc_agi.base:Recording to recordings/3f9516ff-8d3f-4053-a013-76f8e4e98530/ls20-9607627b-105b2457-8c1c-427e-8083-2efca07e2524.jsonl
+2026-09-24 18:16:59 | INFO | Successfully reset game ls20-9607627b, guid=105b2457-8c1c-427e-8083-2efca07e2524, scorecard_id=3f9516ff-8d3f-4053-a013-76f8e4e98530
+INFO:arc_agi.base:Successfully reset game ls20-9607627b, guid=105b2457-8c1c-427e-8083-2efca07e2524, scorecard_id=3f9516ff-8d3f-4053-a013-76f8e4e98530
+2026-09-24 18:17:07 | INFO | Closed scorecard: 3f9516ff-8d3f-4053-a013-76f8e4e98530
+INFO:arc_agi.base:Closed scorecard: 3f9516ff-8d3f-4053-a013-76f8e4e98530
+🔗 Scorecard: https://arcprize.org/scorecards/3f9516ff-8d3f-4053-a013-76f8e4e98530
+
+🏆 [Step 39500] 100% RHAE ACHIEVED (15 actions)! Stopping run.
+<stable_baselines3.dqn.dqn.DQN at 0x7e3f45a1f110>
+
+
+===========================================================================
+ARC-AGI-3 MILESTONE RECORDING SUMMARY
+===========================================================================
+Total Online Recordings Created: 3 / 5
+Human Baseline Target          : 22 actions
+Peak RHAE Achieved             : 115.00%
+
+• Milestone 1: First Completion: ACHIEVED
+    Online Scorecard : https://arcprize.org/scorecards/69084f04-34a3-4463-afc3-e4d43d66582c
+    Actions Taken    : 132
+    RHAE Score       : 2.78%
+• Milestone 2: Cross 25% RHAE: ACHIEVED
+    Online Scorecard : https://arcprize.org/scorecards/e3ac1ce9-2736-414a-b849-5666a3714528
+    Actions Taken    : 23
+    RHAE Score       : 91.49%
+• Milestone 3: Cross 50% RHAE: ACHIEVED
+    Online Scorecard : https://arcprize.org/scorecards/e3ac1ce9-2736-414a-b849-5666a3714528
+    Actions Taken    : 23
+    RHAE Score       : 91.49%
+• Milestone 4: Cross 75% RHAE: ACHIEVED
+    Online Scorecard : https://arcprize.org/scorecards/e3ac1ce9-2736-414a-b849-5666a3714528
+    Actions Taken    : 23
+    RHAE Score       : 91.49%
+• Milestone 5: Achieve 100% RHAE: ACHIEVED
+    Online Scorecard : https://arcprize.org/scorecards/3f9516ff-8d3f-4053-a013-76f8e4e98530
+    Actions Taken    : 15
+    RHAE Score       : 115.00%
+===========================================================================
+ ===========================================================================
+PHASE 1: RUNNING RANDOM AGENT BASELINE (5 SEEDS)
+===========================================================================
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-09-24 19:07:05 | INFO | Successfully fetched 25 environment(s) from API
+INFO:arc_agi.base:Successfully fetched 25 environment(s) from API
+2026-09-24 19:07:05 | INFO | Created new scorecard: 46843455-ad39-484f-b224-1e3474075502
+INFO:arc_agi.base:Created new scorecard: 46843455-ad39-484f-b224-1e3474075502
+2026-09-24 19:07:06 | INFO | Successfully fetched metadata for game ls20
+INFO:arc_agi.base:Successfully fetched metadata for game ls20
+  Seed 1/5 [█████████████████░░░] 53400/60000 (89.0%) | 383 it/s | Cumulative Wins: 0   
+  [Seed 1] 🎯 1st Win encountered at action 53596!
+  Seed 1/5 [████████████████████] 60000/60000 (100.0%) | 381 it/s | Cumulative Wins: 1   
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-09-24 19:09:44 | INFO | Successfully fetched 25 environment(s) from API
+INFO:arc_agi.base:Successfully fetched 25 environment(s) from API
+2026-09-24 19:09:44 | INFO | Created new scorecard: 4073bc8f-a47e-4111-84e8-6b442cb9470c
+INFO:arc_agi.base:Created new scorecard: 4073bc8f-a47e-4111-84e8-6b442cb9470c
+2026-09-24 19:09:45 | INFO | Successfully fetched metadata for game ls20
+INFO:arc_agi.base:Successfully fetched metadata for game ls20
+  Seed 2/5 [████░░░░░░░░░░░░░░░░] 14000/60000 (23.3%) | 375 it/s | Cumulative Wins: 0   
+  [Seed 2] 🎯 1st Win encountered at action 14150!
+  Seed 2/5 [████████████████████] 60000/60000 (100.0%) | 383 it/s | Cumulative Wins: 1   
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-09-24 19:12:23 | INFO | Successfully fetched 25 environment(s) from API
+INFO:arc_agi.base:Successfully fetched 25 environment(s) from API
+2026-09-24 19:12:23 | INFO | Created new scorecard: 43a25004-2032-446d-82b0-7f1d69087c98
+INFO:arc_agi.base:Created new scorecard: 43a25004-2032-446d-82b0-7f1d69087c98
+2026-09-24 19:12:24 | INFO | Successfully fetched metadata for game ls20
+INFO:arc_agi.base:Successfully fetched metadata for game ls20
+  Seed 3/5 [██████████████████░░] 55400/60000 (92.3%) | 385 it/s | Cumulative Wins: 0   
+  [Seed 3] 🎯 1st Win encountered at action 55442!
+  Seed 3/5 [████████████████████] 60000/60000 (100.0%) | 384 it/s | Cumulative Wins: 1   
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-09-24 19:15:01 | INFO | Successfully fetched 25 environment(s) from API
+INFO:arc_agi.base:Successfully fetched 25 environment(s) from API
+2026-09-24 19:15:01 | INFO | Created new scorecard: 01c588a6-764a-43b0-9c87-060322cfcaee
+INFO:arc_agi.base:Created new scorecard: 01c588a6-764a-43b0-9c87-060322cfcaee
+2026-09-24 19:15:01 | INFO | Successfully fetched metadata for game ls20
+INFO:arc_agi.base:Successfully fetched metadata for game ls20
+  Seed 4/5 [███████████████░░░░░] 47200/60000 (78.7%) | 386 it/s | Cumulative Wins: 0   
+  [Seed 4] 🎯 1st Win encountered at action 47254!
+  Seed 4/5 [████████████████████] 60000/60000 (100.0%) | 388 it/s | Cumulative Wins: 2   
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-09-24 19:17:37 | INFO | Successfully fetched 25 environment(s) from API
+INFO:arc_agi.base:Successfully fetched 25 environment(s) from API
+2026-09-24 19:17:37 | INFO | Created new scorecard: 7df93ba8-53ad-4785-8ec9-9a13bc78c54e
+INFO:arc_agi.base:Created new scorecard: 7df93ba8-53ad-4785-8ec9-9a13bc78c54e
+2026-09-24 19:17:38 | INFO | Successfully fetched metadata for game ls20
+INFO:arc_agi.base:Successfully fetched metadata for game ls20
+  Seed 5/5 [█████████░░░░░░░░░░░] 27000/60000 (45.0%) | 387 it/s | Cumulative Wins: 0   
+  [Seed 5] 🎯 1st Win encountered at action 27073!
+  Seed 5/5 [████████████████████] 60000/60000 (100.0%) | 385 it/s | Cumulative Wins: 1   
+
+===========================================================================
+PHASE 2: RUNNING DQN AGENT (Decaying ε: 1.0 -> 0.10 from Step 0)
+===========================================================================
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-09-24 19:20:15 | INFO | Successfully fetched 25 environment(s) from API
+INFO:arc_agi.base:Successfully fetched 25 environment(s) from API
+2026-09-24 19:20:15 | INFO | Created new scorecard: ac6cc14b-eea9-426c-bc5c-68751fe1cd22
+INFO:arc_agi.base:Created new scorecard: ac6cc14b-eea9-426c-bc5c-68751fe1cd22
+2026-09-24 19:20:16 | INFO | Successfully fetched metadata for game ls20
+INFO:arc_agi.base:Successfully fetched metadata for game ls20
+  Seed 1/5 [█████░░░░░░░░░░░░░░░] 15700/60000 (26.2%) | 188 it/s | ε: 0.53 | Cumulative Wins: 0   
+  [Seed 1] 🎯 1st Win encountered at action 15798 (ε was 0.53)! Policy begins exploiting.
+  Seed 1/5 [████████████████████] 60000/60000 (100.0%) | 134 it/s | ε: 0.10 | Cumulative Wins: 479 
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-09-24 19:27:44 | INFO | Successfully fetched 25 environment(s) from API
+INFO:arc_agi.base:Successfully fetched 25 environment(s) from API
+2026-09-24 19:27:44 | INFO | Created new scorecard: abe8bb67-0ef9-4cbf-bb90-d4709305ff9f
+INFO:arc_agi.base:Created new scorecard: abe8bb67-0ef9-4cbf-bb90-d4709305ff9f
+2026-09-24 19:27:44 | INFO | Successfully fetched metadata for game ls20
+INFO:arc_agi.base:Successfully fetched metadata for game ls20
+  Seed 2/5 [████████░░░░░░░░░░░░] 24700/60000 (41.2%) | 171 it/s | ε: 0.26 | Cumulative Wins: 0   
+  [Seed 2] 🎯 1st Win encountered at action 24755 (ε was 0.26)! Policy begins exploiting.
+  Seed 2/5 [████████████████████] 60000/60000 (100.0%) | 124 it/s | ε: 0.10 | Cumulative Wins: 6   
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-09-24 19:35:47 | INFO | Successfully fetched 25 environment(s) from API
+INFO:arc_agi.base:Successfully fetched 25 environment(s) from API
+2026-09-24 19:35:47 | INFO | Created new scorecard: 058587a6-070a-46a7-8ca9-111b3c1cec1a
+INFO:arc_agi.base:Created new scorecard: 058587a6-070a-46a7-8ca9-111b3c1cec1a
+2026-09-24 19:35:47 | INFO | Successfully fetched metadata for game ls20
+INFO:arc_agi.base:Successfully fetched metadata for game ls20
+  Seed 3/5 [██████░░░░░░░░░░░░░░] 18500/60000 (30.8%) | 184 it/s | ε: 0.45 | Cumulative Wins: 0   
+  [Seed 3] 🎯 1st Win encountered at action 18528 (ε was 0.44)! Policy begins exploiting.
+  Seed 3/5 [████████████████████] 60000/60000 (100.0%) | 131 it/s | ε: 0.10 | Cumulative Wins: 83  
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-09-24 19:43:24 | INFO | Successfully fetched 25 environment(s) from API
+INFO:arc_agi.base:Successfully fetched 25 environment(s) from API
+2026-09-24 19:43:24 | INFO | Created new scorecard: 83f11ea4-bd8c-4b2f-afc2-5dbc2b9cb547
+INFO:arc_agi.base:Created new scorecard: 83f11ea4-bd8c-4b2f-afc2-5dbc2b9cb547
+2026-09-24 19:43:25 | INFO | Successfully fetched metadata for game ls20
+INFO:arc_agi.base:Successfully fetched metadata for game ls20
+  Seed 4/5 [██░░░░░░░░░░░░░░░░░░]  8700/60000 (14.5%) | 197 it/s | ε: 0.74 | Cumulative Wins: 0   
+  [Seed 4] 🎯 1st Win encountered at action 8772 (ε was 0.74)! Policy begins exploiting.
+  Seed 4/5 [████████████████████] 60000/60000 (100.0%) | 140 it/s | ε: 0.10 | Cumulative Wins: 311 
+INFO:arc_agi.scorecard:Initialized ScorecardManager with idle_for=0:15:00 and max_open_for=3 days, 0:00:00
+2026-09-24 19:50:32 | INFO | Successfully fetched 25 environment(s) from API
+INFO:arc_agi.base:Successfully fetched 25 environment(s) from API
+2026-09-24 19:50:32 | INFO | Created new scorecard: 51128d1c-0066-437b-b20f-5bd0d3b9d434
+INFO:arc_agi.base:Created new scorecard: 51128d1c-0066-437b-b20f-5bd0d3b9d434
+2026-09-24 19:50:33 | INFO | Successfully fetched metadata for game ls20
+INFO:arc_agi.base:Successfully fetched metadata for game ls20
+  Seed 5/5 [████░░░░░░░░░░░░░░░░] 13700/60000 (22.8%) | 192 it/s | ε: 0.59 | Cumulative Wins: 0   
+  [Seed 5] 🎯 1st Win encountered at action 13797 (ε was 0.59)! Policy begins exploiting.
+  Seed 5/5 [████████████████████] 60000/60000 (100.0%) | 140 it/s | ε: 0.10 | Cumulative Wins: 167 
+
+Generating final plot...
+Plot saved as 'thesis_dqn_vs_random_decay.png'!
+

@@ -1,0 +1,17 @@
+{
+  "task": "progress",
+  "step": 60,
+  "accepted": true,
+  "folder": "learning/008_progress",
+  "engine": "popper",
+  "score": [
+    1,
+    0,
+    24,
+    0
+  ],
+  "positives": 1,
+  "negatives": 24,
+  "rules": "progress(V0):- equal_c5(V0).\n",
+  "seconds": 1.0506772760004424
+}

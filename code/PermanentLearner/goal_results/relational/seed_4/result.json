@@ -1,0 +1,24 @@
+{
+  "template": "relational",
+  "seed": 4,
+  "target_color": null,
+  "train_examples": 60,
+  "train_positive": 27,
+  "train_negative": 33,
+  "held_out_examples": 100,
+  "held_out_positive": 41,
+  "held_out_negative": 59,
+  "examples_to_convergence": 2,
+  "induction_indices": [
+    2
+  ],
+  "induction_calls": 1,
+  "induction_seconds": 0.28968581795925274,
+  "held_out_agreement": 1,
+  "spurious_convergence": false,
+  "syntactically_identical": true,
+  "agreement_without_syntactic_identity": false,
+  "true_hypothesis": "goal(S):- adjacent(S,X,Y), color(S,X,C), color(S,Y,C).",
+  "learned_hypothesis": "goal(A):- adjacent(A,B,C),color(A,C,D),color(A,B,D).",
+  "runtime_seconds": 0.40374988596886396
+}

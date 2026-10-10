@@ -1,0 +1,17 @@
+{
+  "task": "changes",
+  "step": 1,
+  "accepted": true,
+  "folder": "learning/000_changes",
+  "engine": "popper",
+  "score": [
+    1,
+    0,
+    0,
+    0
+  ],
+  "positives": 1,
+  "negatives": 0,
+  "rules": "changes(V0):- context(V0).\n",
+  "seconds": 0.9276131730002817
+}

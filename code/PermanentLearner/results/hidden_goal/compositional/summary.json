@@ -1,0 +1,59 @@
+{
+  "game": "compositional",
+  "runs": 10,
+  "metrics": {
+    "training_examples": {
+      "mean": 28.9,
+      "spread": 2.3,
+      "n": 10
+    },
+    "held_out_examples": {
+      "mean": 26.0,
+      "spread": 0.7745966692414834,
+      "n": 10
+    },
+    "examples_to_convergence": {
+      "mean": 5.6,
+      "spread": 4.17612260356422,
+      "n": 10
+    },
+    "held_out_agreement": {
+      "mean": 1.0,
+      "spread": 0.0,
+      "n": 10
+    },
+    "held_out_precision": {
+      "mean": 1.0,
+      "spread": 0.0,
+      "n": 10
+    },
+    "held_out_recall": {
+      "mean": 1.0,
+      "spread": 0.0,
+      "n": 10
+    },
+    "goal_induction_calls": {
+      "mean": 1.0,
+      "spread": 0.0,
+      "n": 10
+    },
+    "goal_induction_seconds": {
+      "mean": 0.2682381454040296,
+      "spread": 0.012976398211779898,
+      "n": 10
+    },
+    "planning_seconds": {
+      "mean": 0.042961216199910265,
+      "spread": 0.0012455900253026697,
+      "n": 10
+    },
+    "plan_length": {
+      "mean": 4.0,
+      "spread": 0.0,
+      "n": 10
+    }
+  },
+  "success_rate": 1,
+  "syntactic_match_count": 0,
+  "failure_count": 0
+}

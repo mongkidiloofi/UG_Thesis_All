@@ -1,0 +1,34 @@
+{
+  "game": "compositional",
+  "seed": 3,
+  "training_examples": 28,
+  "training_positive": 3,
+  "training_negative": 25,
+  "held_out_examples": 27,
+  "held_out_positive": 6,
+  "held_out_negative": 21,
+  "interaction_steps": 240,
+  "goal_induction_calls": 1,
+  "goal_induction_call_indices": [
+    2
+  ],
+  "examples_to_convergence": 2,
+  "goal_induction_seconds": 0.2708276659832336,
+  "held_out_agreement": 1,
+  "held_out_precision": 1.0,
+  "held_out_recall": 1.0,
+  "true_rule": "goal(S):- object_color(S,X,C), red(C), adjacent(S,X,Y), object_color(S,Y,D), blue(D).",
+  "learned_rule": "goal(A):- adjacent(A,B,D),adjacent(A,D,B),object_color(A,B,C),blue(C).",
+  "syntactically_identical": false,
+  "planning_seconds": 0.044832865009084344,
+  "plan_actions": [
+    "right",
+    "right",
+    "right",
+    "right"
+  ],
+  "plan_length": 4,
+  "planning_success": true,
+  "failure_reason": "",
+  "runtime_seconds": 0.33452256995951757
+}

@@ -1,0 +1,310 @@
+{
+  "actions": 126,
+  "levels_observed": [
+    {
+      "step": 59,
+      "before": 0,
+      "after": 1
+    }
+  ],
+  "anomalies": 3,
+  "mapping": {
+    "1": [
+      0,
+      -5
+    ],
+    "2": [
+      0,
+      5
+    ],
+    "3": [
+      -5,
+      0
+    ],
+    "4": [
+      5,
+      0
+    ]
+  },
+  "channels": [
+    {
+      "key": [
+        9,
+        3,
+        55,
+        6
+      ],
+      "rule": "nextpixel(V0,V1,V2):- current(V0,V3,V1),opposite(V2,V3),entered_has1(V0).\nnextpixel(V0,V1,V2):- entered_lacks1(V0),current(V0,V1,V2).\n",
+      "examples": 7,
+      "errors": 0
+    },
+    {
+      "key": [
+        5,
+        1,
+        53,
+        10
+      ],
+      "rule": "nextpixel(V0,V1,V2):- current(V0,V3,V1),opposite(V2,V3),entered_has1(V0).\nnextpixel(V0,V1,V2):- entered_lacks1(V0),current(V0,V1,V2).\n",
+      "examples": 7,
+      "errors": 0
+    }
+  ],
+  "archived_channels": [
+    {
+      "key": [
+        9,
+        3,
+        55,
+        6
+      ],
+      "rule": "nextpixel(V0,V1,V2):- current(V0,V3,V1),opposite(V2,V3),entered_has1(V0).\nnextpixel(V0,V1,V2):- entered_lacks1(V0),current(V0,V1,V2).\n",
+      "examples": 11,
+      "errors": 1
+    },
+    {
+      "key": [
+        5,
+        1,
+        53,
+        10
+      ],
+      "rule": "nextpixel(V0,V1,V2):- current(V0,V3,V1),opposite(V2,V3),entered_has1(V0).\nnextpixel(V0,V1,V2):- entered_lacks1(V0),current(V0,V1,V2).\n",
+      "examples": 11,
+      "errors": 1
+    }
+  ],
+  "rules": {
+    "advances": {
+      "program": "advances(V0):- equal_c3(V0).\nadvances(V0):- unequal_c3(V0),lacks_c4(V0).\n",
+      "distinct_contexts": 25,
+      "positives": 101,
+      "contradictions": 0,
+      "errors": 2
+    },
+    "changes": {
+      "program": "changes(V0):- equal_c5(V0).\nchanges(V0):- lacks_c9(V0).\n",
+      "distinct_contexts": 30,
+      "positives": 124,
+      "contradictions": 0,
+      "errors": 2
+    },
+    "progress": {
+      "program": "progress(V0):- equal_c5(V0).\n",
+      "distinct_contexts": 30,
+      "positives": 1,
+      "contradictions": 0,
+      "errors": 0
+    },
+    "exceptional": {
+      "program": null,
+      "distinct_contexts": 26,
+      "positives": 3,
+      "contradictions": 3,
+      "errors": 0
+    }
+  },
+  "fits": [
+    {
+      "task": "changes",
+      "step": 1,
+      "accepted": true,
+      "folder": "learning/000_changes",
+      "engine": "popper",
+      "score": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "positives": 1,
+      "negatives": 0,
+      "rules": "changes(V0):- context(V0).\n",
+      "seconds": 1.787143080000078
+    },
+    {
+      "task": "advances",
+      "step": 6,
+      "accepted": true,
+      "folder": "learning/001_advances",
+      "engine": "popper",
+      "score": [
+        1,
+        0,
+        1,
+        0
+      ],
+      "positives": 1,
+      "negatives": 1,
+      "rules": "advances(V0):- unequal_c3(V0).\n",
+      "seconds": 1.5436134720002883
+    },
+    {
+      "task": "nextpixel",
+      "step": 18,
+      "accepted": true,
+      "folder": "learning/002_nextpixel",
+      "engine": "popper",
+      "score": [
+        72,
+        0,
+        36,
+        0
+      ],
+      "positives": 72,
+      "negatives": 36,
+      "rules": "nextpixel(V0,V1,V2):- entered_has1(V0),opposite(V2,V3),current(V0,V1,V3).\nnextpixel(V0,V1,V2):- entered_lacks1(V0),current(V0,V1,V2).\n",
+      "seconds": 1.502583496999705
+    },
+    {
+      "task": "nextpixel",
+      "step": 18,
+      "accepted": true,
+      "folder": "learning/003_nextpixel",
+      "engine": "popper",
+      "score": [
+        228,
+        0,
+        72,
+        0
+      ],
+      "positives": 228,
+      "negatives": 72,
+      "rules": "nextpixel(V0,V1,V2):- entered_has1(V0),opposite(V2,V3),current(V0,V1,V3).\nnextpixel(V0,V1,V2):- entered_lacks1(V0),current(V0,V1,V2).\n",
+      "seconds": 1.5471757669997714
+    },
+    {
+      "task": "nextpixel",
+      "step": 22,
+      "accepted": true,
+      "folder": "learning/004_nextpixel",
+      "engine": "popper",
+      "score": [
+        168,
+        0,
+        84,
+        0
+      ],
+      "positives": 168,
+      "negatives": 84,
+      "rules": "nextpixel(V0,V1,V2):- current(V0,V3,V1),opposite(V2,V3),entered_has1(V0).\nnextpixel(V0,V1,V2):- entered_lacks1(V0),current(V0,V1,V2).\n",
+      "seconds": 1.590484166999886
+    },
+    {
+      "task": "nextpixel",
+      "step": 22,
+      "accepted": true,
+      "folder": "learning/005_nextpixel",
+      "engine": "popper",
+      "score": [
+        532,
+        0,
+        168,
+        0
+      ],
+      "positives": 532,
+      "negatives": 168,
+      "rules": "nextpixel(V0,V1,V2):- current(V0,V3,V1),opposite(V2,V3),entered_has1(V0).\nnextpixel(V0,V1,V2):- entered_lacks1(V0),current(V0,V1,V2).\n",
+      "seconds": 1.5302132580000034
+    },
+    {
+      "task": "changes",
+      "step": 31,
+      "accepted": true,
+      "folder": "learning/006_changes",
+      "engine": "popper",
+      "score": [
+        17,
+        0,
+        1,
+        0
+      ],
+      "positives": 17,
+      "negatives": 1,
+      "rules": "changes(V0):- lacks_c9(V0).\n",
+      "seconds": 1.0518708950003202
+    },
+    {
+      "task": "advances",
+      "step": 32,
+      "accepted": true,
+      "folder": "learning/007_advances",
+      "engine": "popper",
+      "score": [
+        9,
+        0,
+        6,
+        0
+      ],
+      "positives": 9,
+      "negatives": 6,
+      "rules": "advances(V0):- lacks_c9(V0),lacks_c4(V0).\n",
+      "seconds": 1.0655144990000736
+    },
+    {
+      "task": "progress",
+      "step": 59,
+      "accepted": true,
+      "folder": "learning/008_progress",
+      "engine": "popper",
+      "score": [
+        1,
+        0,
+        24,
+        0
+      ],
+      "positives": 1,
+      "negatives": 24,
+      "rules": "progress(V0):- equal_c5(V0).\n",
+      "seconds": 1.1201632259999315
+    },
+    {
+      "task": "changes",
+      "step": 59,
+      "accepted": true,
+      "folder": "learning/009_changes",
+      "engine": "popper",
+      "score": [
+        24,
+        0,
+        1,
+        0
+      ],
+      "positives": 24,
+      "negatives": 1,
+      "rules": "changes(V0):- equal_c5(V0).\nchanges(V0):- lacks_c9(V0).\n",
+      "seconds": 1.1078505659997973
+    },
+    {
+      "task": "advances",
+      "step": 99,
+      "accepted": true,
+      "folder": "learning/010_advances",
+      "engine": "popper",
+      "score": [
+        15,
+        0,
+        7,
+        0
+      ],
+      "positives": 15,
+      "negatives": 7,
+      "rules": "advances(V0):- equal_c3(V0).\nadvances(V0):- unequal_c3(V0),lacks_c4(V0).\n",
+      "seconds": 1.0640245309996317
+    }
+  ],
+  "position_predictions": 119,
+  "position_correct": 113,
+  "pixel_predictions": 168,
+  "pixel_correct": 166,
+  "pixel_changes": 20,
+  "changed_pixel_predictions": 14,
+  "changed_pixel_correct": 12,
+  "game_id": "ls20-9607627b",
+  "environment_actions": 126,
+  "levels_completed": 1,
+  "state": "GameState.GAME_OVER",
+  "seconds": 27.90811708000001,
+  "error": null,
+  "resets": 0
+}

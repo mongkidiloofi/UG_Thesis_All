@@ -1,0 +1,17 @@
+{
+  "task": "nextpixel",
+  "step": 23,
+  "accepted": true,
+  "folder": "learning/004_nextpixel",
+  "engine": "popper",
+  "score": [
+    168,
+    0,
+    84,
+    0
+  ],
+  "positives": 168,
+  "negatives": 84,
+  "rules": "nextpixel(V0,V1,V2):- current(V0,V3,V1),opposite(V2,V3),entered_has1(V0).\nnextpixel(V0,V1,V2):- entered_lacks1(V0),current(V0,V1,V2).\n",
+  "seconds": 1.4973480840003504
+}

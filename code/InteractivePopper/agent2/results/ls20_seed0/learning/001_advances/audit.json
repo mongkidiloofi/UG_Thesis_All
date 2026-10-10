@@ -1,0 +1,17 @@
+{
+  "task": "advances",
+  "step": 6,
+  "accepted": true,
+  "folder": "learning/001_advances",
+  "engine": "popper",
+  "score": [
+    1,
+    0,
+    1,
+    0
+  ],
+  "positives": 1,
+  "negatives": 1,
+  "rules": "advances(V0):- unequal_c3(V0).\n",
+  "seconds": 1.5436134720002883
+}

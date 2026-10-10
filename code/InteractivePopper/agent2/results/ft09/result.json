@@ -1,0 +1,150 @@
+{
+  "actions": 80,
+  "levels_observed": [],
+  "anomalies": 0,
+  "mapping": {},
+  "channels": [
+    {
+      "key": [
+        9,
+        52,
+        36,
+        6
+      ],
+      "rule": "nextpixel(V0,V1,V2):- absentpixel(V0,V1,V2),local_click(V0).\nnextpixel(V0,V1,V2):- no_local_click(V0),current(V0,V1,V2).\n",
+      "examples": 18,
+      "errors": 3
+    },
+    {
+      "key": [
+        9,
+        36,
+        52,
+        6
+      ],
+      "rule": "",
+      "examples": 9,
+      "errors": 0
+    }
+  ],
+  "archived_channels": [],
+  "rules": {
+    "advances": {
+      "program": null,
+      "distinct_contexts": 0,
+      "positives": 0,
+      "contradictions": 0,
+      "errors": 0
+    },
+    "changes": {
+      "program": null,
+      "distinct_contexts": 8,
+      "positives": 5,
+      "contradictions": 2,
+      "errors": 0
+    },
+    "progress": {
+      "program": null,
+      "distinct_contexts": 8,
+      "positives": 0,
+      "contradictions": 0,
+      "errors": 0
+    },
+    "exceptional": {
+      "program": null,
+      "distinct_contexts": 0,
+      "positives": 0,
+      "contradictions": 0,
+      "errors": 0
+    }
+  },
+  "fits": [
+    {
+      "task": "nextpixel",
+      "step": 15,
+      "accepted": true,
+      "folder": "learning/000_nextpixel",
+      "engine": "empty_hypothesis",
+      "rules": "",
+      "positives": 0,
+      "negatives": 36,
+      "seconds": 0.0001245539997398737
+    },
+    {
+      "task": "nextpixel",
+      "step": 29,
+      "accepted": true,
+      "folder": "learning/001_nextpixel",
+      "engine": "empty_hypothesis",
+      "rules": "",
+      "positives": 0,
+      "negatives": 36,
+      "seconds": 0.00011897900003532413
+    },
+    {
+      "task": "nextpixel",
+      "step": 53,
+      "accepted": true,
+      "folder": "learning/002_nextpixel",
+      "engine": "popper",
+      "score": [
+        36,
+        0,
+        324,
+        0
+      ],
+      "positives": 36,
+      "negatives": 324,
+      "rules": "nextpixel(V0,V1,V2):- absentpixel(V0,V1,V2),local_click(V0).\n",
+      "seconds": 1.903524507000384
+    },
+    {
+      "task": "nextpixel",
+      "step": 57,
+      "accepted": true,
+      "folder": "learning/003_nextpixel",
+      "engine": "popper",
+      "score": [
+        180,
+        0,
+        324,
+        0
+      ],
+      "positives": 180,
+      "negatives": 324,
+      "rules": "nextpixel(V0,V1,V2):- absentpixel(V0,V1,V2),local_click(V0).\nnextpixel(V0,V1,V2):- entered_lacks9(V0),current(V0,V1,V2).\n",
+      "seconds": 1.7802556990000085
+    },
+    {
+      "task": "nextpixel",
+      "step": 61,
+      "accepted": true,
+      "folder": "learning/004_nextpixel",
+      "engine": "popper",
+      "score": [
+        324,
+        0,
+        324,
+        0
+      ],
+      "positives": 324,
+      "negatives": 324,
+      "rules": "nextpixel(V0,V1,V2):- absentpixel(V0,V1,V2),local_click(V0).\nnextpixel(V0,V1,V2):- no_local_click(V0),current(V0,V1,V2).\n",
+      "seconds": 1.875041112999952
+    }
+  ],
+  "position_predictions": 0,
+  "position_correct": 0,
+  "pixel_predictions": 113,
+  "pixel_correct": 110,
+  "pixel_changes": 4,
+  "changed_pixel_predictions": 2,
+  "changed_pixel_correct": 1,
+  "game_id": "ft09-0d8bbf25",
+  "environment_actions": 80,
+  "levels_completed": 0,
+  "state": "GameState.NOT_FINISHED",
+  "seconds": 9.96159803899991,
+  "error": null,
+  "resets": 0
+}

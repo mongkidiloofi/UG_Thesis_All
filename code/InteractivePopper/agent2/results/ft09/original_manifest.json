@@ -1,0 +1,15 @@
+{
+  "game": "ft09",
+  "budget": 80,
+  "seed": 0,
+  "max_fits": 18,
+  "fit_timeout": 8,
+  "sources": {
+    "arcpopper/agent2/__init__.py": "72844cb3b443b257f0064b0ed5d5e784cf519d79ecd5afd53fcdf7a6174ca9ee",
+    "arcpopper/agent2/perception.py": "58786ec765e3b6747732a3634163143b338e4debf397f8755294a5cc7f2117ab",
+    "arcpopper/agent2/agent.py": "982cf5ec45d246ac55ec34778f6739dda8b9e3eff6ded6439d499a61906d931a",
+    "arcpopper/agent2/learning.py": "8fc363b3c83a35b21e0b40a6691c071da165ed902cc51bee5a4ec7ba0aa03c33",
+    "arcpopper/agent2/worker.py": "182ed7e38c61133874fe3c8711493e07e5e16963384bf822067d3d58f5c5a300",
+    "scripts/run_agent2.py": "49b14207108065fa8e0f0f23115dfbdc532f10f7c8551bcb6c7da3eb27419d66"
+  }
+}

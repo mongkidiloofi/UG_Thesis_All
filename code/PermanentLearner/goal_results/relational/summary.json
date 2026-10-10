@@ -1,0 +1,19 @@
+{
+  "template": "relational",
+  "runs": 10,
+  "metrics": {
+    "examples_to_convergence": {
+      "mean": 3.4,
+      "spread": 2.3748684174075834,
+      "n": 10
+    },
+    "held_out_agreement": {
+      "mean": 1.0,
+      "spread": 0.0,
+      "n": 10
+    }
+  },
+  "spurious_convergence_runs": 0,
+  "syntactically_identical_runs": 10,
+  "agreement_without_syntactic_identity_runs": 0
+}

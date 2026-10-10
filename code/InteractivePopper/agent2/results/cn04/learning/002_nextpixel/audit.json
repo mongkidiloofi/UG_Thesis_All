@@ -1,0 +1,11 @@
+{
+  "task": "nextpixel",
+  "step": 12,
+  "accepted": true,
+  "folder": "learning/002_nextpixel",
+  "engine": "empty_hypothesis",
+  "rules": "",
+  "positives": 0,
+  "negatives": 225,
+  "seconds": 9.352899996883934e-05
+}

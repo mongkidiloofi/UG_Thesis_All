@@ -1,0 +1,12 @@
+{
+  "task": "nextpixel",
+  "step": 16,
+  "accepted": false,
+  "folder": "learning/005_nextpixel",
+  "engine": "popper",
+  "score": null,
+  "positives": 135,
+  "negatives": 765,
+  "rules": "",
+  "seconds": 1.462822153000161
+}

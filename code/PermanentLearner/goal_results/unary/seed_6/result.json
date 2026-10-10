@@ -1,0 +1,25 @@
+{
+  "template": "unary",
+  "seed": 6,
+  "target_color": "red",
+  "train_examples": 60,
+  "train_positive": 46,
+  "train_negative": 14,
+  "held_out_examples": 100,
+  "held_out_positive": 77,
+  "held_out_negative": 23,
+  "examples_to_convergence": 3,
+  "induction_indices": [
+    2,
+    3
+  ],
+  "induction_calls": 2,
+  "induction_seconds": 0.32786408794345334,
+  "held_out_agreement": 1,
+  "spurious_convergence": false,
+  "syntactically_identical": false,
+  "agreement_without_syntactic_identity": true,
+  "true_hypothesis": "goal(S):- color(S,X,C), red(C).",
+  "learned_hypothesis": "goal(A):- object(A,B),color(A,B,C),red(C).",
+  "runtime_seconds": 0.4299653390189633
+}

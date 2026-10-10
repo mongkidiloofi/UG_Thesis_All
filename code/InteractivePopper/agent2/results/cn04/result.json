@@ -1,0 +1,209 @@
+{
+  "actions": 60,
+  "levels_observed": [],
+  "anomalies": 0,
+  "mapping": {
+    "1": [
+      0,
+      -3
+    ],
+    "2": [
+      0,
+      3
+    ],
+    "3": [
+      -3,
+      0
+    ],
+    "4": [
+      3,
+      0
+    ]
+  },
+  "channels": [
+    {
+      "key": [
+        12,
+        11,
+        11,
+        15
+      ],
+      "rule": null,
+      "examples": 12,
+      "errors": 1
+    },
+    {
+      "key": [
+        0,
+        11,
+        11,
+        15
+      ],
+      "rule": null,
+      "examples": 12,
+      "errors": 0
+    }
+  ],
+  "archived_channels": [],
+  "rules": {
+    "advances": {
+      "program": null,
+      "distinct_contexts": 0,
+      "positives": 0,
+      "contradictions": 0,
+      "errors": 0
+    },
+    "changes": {
+      "program": null,
+      "distinct_contexts": 11,
+      "positives": 49,
+      "contradictions": 3,
+      "errors": 2
+    },
+    "progress": {
+      "program": null,
+      "distinct_contexts": 11,
+      "positives": 0,
+      "contradictions": 0,
+      "errors": 0
+    },
+    "exceptional": {
+      "program": null,
+      "distinct_contexts": 0,
+      "positives": 0,
+      "contradictions": 0,
+      "errors": 0
+    }
+  },
+  "fits": [
+    {
+      "task": "changes",
+      "step": 1,
+      "accepted": true,
+      "folder": "learning/000_changes",
+      "engine": "popper",
+      "score": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "positives": 1,
+      "negatives": 0,
+      "rules": "changes(V0):- context(V0).\n",
+      "seconds": 0.9276131730002817
+    },
+    {
+      "task": "changes",
+      "step": 9,
+      "accepted": true,
+      "folder": "learning/001_changes",
+      "engine": "popper",
+      "score": [
+        6,
+        0,
+        1,
+        0
+      ],
+      "positives": 6,
+      "negatives": 1,
+      "rules": "changes(V0):- lacks_c10(V0).\n",
+      "seconds": 0.9501254469996638
+    },
+    {
+      "task": "nextpixel",
+      "step": 12,
+      "accepted": true,
+      "folder": "learning/002_nextpixel",
+      "engine": "empty_hypothesis",
+      "rules": "",
+      "positives": 0,
+      "negatives": 225,
+      "seconds": 9.352899996883934e-05
+    },
+    {
+      "task": "nextpixel",
+      "step": 12,
+      "accepted": false,
+      "folder": "learning/003_nextpixel",
+      "engine": "popper",
+      "score": null,
+      "positives": 135,
+      "negatives": 90,
+      "rules": "",
+      "seconds": 1.0290280730000632
+    },
+    {
+      "task": "nextpixel",
+      "step": 16,
+      "accepted": false,
+      "folder": "learning/004_nextpixel",
+      "engine": "popper",
+      "score": [
+        135,
+        270,
+        495,
+        0
+      ],
+      "positives": 405,
+      "negatives": 495,
+      "rules": "nextpixel(V0,V1,V2):- no_local_click(V0),current(V0,V1,V2).\n",
+      "seconds": 1.5840044469996428
+    },
+    {
+      "task": "nextpixel",
+      "step": 16,
+      "accepted": false,
+      "folder": "learning/005_nextpixel",
+      "engine": "popper",
+      "score": null,
+      "positives": 135,
+      "negatives": 765,
+      "rules": "",
+      "seconds": 1.462822153000161
+    },
+    {
+      "task": "nextpixel",
+      "step": 20,
+      "accepted": false,
+      "folder": "learning/006_nextpixel",
+      "engine": "popper",
+      "score": [
+        270,
+        270,
+        810,
+        0
+      ],
+      "positives": 540,
+      "negatives": 810,
+      "rules": "nextpixel(V0,V1,V2):- no_local_click(V0),entered_lacks8(V0),current(V0,V1,V2).\n",
+      "seconds": 2.0352987669998583
+    },
+    {
+      "task": "nextpixel",
+      "step": 20,
+      "accepted": false,
+      "folder": "learning/007_nextpixel",
+      "engine": "popper",
+      "score": null,
+      "positives": 270,
+      "negatives": 1080,
+      "rules": "",
+      "seconds": 1.932671938999647
+    }
+  ],
+  "position_predictions": 0,
+  "position_correct": 0,
+  "pixel_predictions": 1,
+  "pixel_correct": 0,
+  "pixel_changes": 46,
+  "changed_pixel_predictions": 1,
+  "changed_pixel_correct": 0,
+  "game_id": "cn04-2fe56bfb",
+  "environment_actions": 60,
+  "levels_completed": 0,
+  "state": "GameState.NOT_FINISHED",
+  "seconds": 11.177098362999914,
+  "error": null,
+  "resets": 0
+}

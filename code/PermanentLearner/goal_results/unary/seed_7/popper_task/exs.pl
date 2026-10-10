@@ -1,0 +1,12 @@
+pos(goal(s9)).
+pos(goal(s53)).
+pos(goal(s18)).
+pos(goal(s25)).
+pos(goal(s31)).
+pos(goal(s27)).
+pos(goal(s48)).
+pos(goal(s45)).
+pos(goal(s55)).
+pos(goal(s4)).
+pos(goal(s49)).
+neg(goal(s40)).

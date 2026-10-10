@@ -1,0 +1,32 @@
+:- style_check(-discontiguous).
+object(_,_) :- fail.
+object_color(_,_,_) :- fail.
+adjacent(_,_,_) :- fail.
+red(red).
+blue(blue).
+green(green).
+yellow(yellow).
+object(compositional_v5_p2,red_obj).
+object(compositional_v5_p2,blue_obj).
+object(compositional_v5_p2,other).
+object_color(compositional_v5_p2,red_obj,green).
+object_color(compositional_v5_p2,blue_obj,blue).
+object_color(compositional_v5_p2,other,red).
+adjacent(compositional_v5_p2,red_obj,other).
+adjacent(compositional_v5_p2,other,red_obj).
+object(compositional_v0_p0,red_obj).
+object(compositional_v0_p0,blue_obj).
+object(compositional_v0_p0,other).
+object_color(compositional_v0_p0,red_obj,red).
+object_color(compositional_v0_p0,blue_obj,green).
+object_color(compositional_v0_p0,other,blue).
+adjacent(compositional_v0_p0,red_obj,blue_obj).
+adjacent(compositional_v0_p0,blue_obj,red_obj).
+object(compositional_v0_p3,red_obj).
+object(compositional_v0_p3,blue_obj).
+object(compositional_v0_p3,other).
+object_color(compositional_v0_p3,red_obj,red).
+object_color(compositional_v0_p3,blue_obj,blue).
+object_color(compositional_v0_p3,other,green).
+adjacent(compositional_v0_p3,red_obj,blue_obj).
+adjacent(compositional_v0_p3,blue_obj,red_obj).

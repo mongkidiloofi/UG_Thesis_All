@@ -1,0 +1,59 @@
+{
+  "game": "relational",
+  "runs": 10,
+  "metrics": {
+    "training_examples": {
+      "mean": 26.3,
+      "spread": 1.9519221295943134,
+      "n": 10
+    },
+    "held_out_examples": {
+      "mean": 29.9,
+      "spread": 0.9433981132056604,
+      "n": 10
+    },
+    "examples_to_convergence": {
+      "mean": 5.6,
+      "spread": 4.963869458396343,
+      "n": 10
+    },
+    "held_out_agreement": {
+      "mean": 1.0,
+      "spread": 0.0,
+      "n": 10
+    },
+    "held_out_precision": {
+      "mean": 1.0,
+      "spread": 0.0,
+      "n": 10
+    },
+    "held_out_recall": {
+      "mean": 1.0,
+      "spread": 0.0,
+      "n": 10
+    },
+    "goal_induction_calls": {
+      "mean": 1.0,
+      "spread": 0.0,
+      "n": 10
+    },
+    "goal_induction_seconds": {
+      "mean": 0.22883872920065187,
+      "spread": 0.011346828277580599,
+      "n": 10
+    },
+    "planning_seconds": {
+      "mean": 0.04417563219321892,
+      "spread": 0.0030135872227083126,
+      "n": 10
+    },
+    "plan_length": {
+      "mean": 6.0,
+      "spread": 0.0,
+      "n": 10
+    }
+  },
+  "success_rate": 1,
+  "syntactic_match_count": 10,
+  "failure_count": 0
+}

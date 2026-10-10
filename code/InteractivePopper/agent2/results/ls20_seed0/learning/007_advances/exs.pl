@@ -1,0 +1,15 @@
+neg(advances(e0)).
+neg(advances(e13)).
+neg(advances(e14)).
+neg(advances(e4)).
+neg(advances(e6)).
+neg(advances(e7)).
+pos(advances(e1)).
+pos(advances(e10)).
+pos(advances(e11)).
+pos(advances(e12)).
+pos(advances(e2)).
+pos(advances(e3)).
+pos(advances(e5)).
+pos(advances(e8)).
+pos(advances(e9)).

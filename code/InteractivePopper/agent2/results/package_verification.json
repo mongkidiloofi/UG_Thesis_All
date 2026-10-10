@@ -1,0 +1,59 @@
+{
+  "scope": "Standalone package refactor verification; separate from historical experiments. Existing installed upstream dependencies were reused. A clean network dependency installation was not performed.",
+  "tests_passed": 4,
+  "lint_passed": true,
+  "standalone_import_checked": true,
+  "historical_trace_matched_exactly": true,
+  "trace_sha256": "b50d18e963fafe04077e49418384a4ed988468ab14f6ca1704dc1b3b8f428b91",
+  "game_id": "ls20-9607627b",
+  "actions": 126,
+  "level_events": [
+    {
+      "step": 59,
+      "before": 0,
+      "after": 1
+    }
+  ],
+  "stop_state": "GameState.GAME_OVER",
+  "source_manifest": {
+    "game": "ls20",
+    "budget": 200,
+    "seed": 0,
+    "max_fits": 40,
+    "fit_timeout": 8,
+    "versions": {
+      "python": "3.14.5",
+      "arc-agent2": "0.1.0",
+      "popper": "5.0.0",
+      "arc-agi": "0.9.9",
+      "arcengine": "0.9.3",
+      "numpy": "2.5.3",
+      "clingo": "5.8.2",
+      "janus_swi": "1.5.3"
+    },
+    "sources": {
+      "__init__.py": "559a0e53a93bef6015fb4e02dd3cb21fca635128095747e317efcbf3d3482e5c",
+      "__main__.py": "3129adff95e0f38b87ab34cddfc27082c7892bcaec267ff5d40f160fdf55b44a",
+      "agent.py": "700fd5822009cf5b4634e9a530969d2d189e64e3d5d8d4dff19067dda1909830",
+      "cli.py": "d0ddfe45876947458a644cf69e603457ba3a6749a30e30b92ddf602508cdbb34",
+      "components.py": "44846a84d636dc3af951cdc762eb1b6fbb12e9e8cc33ec25bfb5160fe5eeddc6",
+      "learning.py": "8bb615019ddb5384befc3645c0ccfe84bcb488b60e1d7c81a062479e3905c3df",
+      "logic.py": "613171782cb6907dfbd56d3a0318d7275d6efd6affd3ad7b4452a4a23970bc31",
+      "perception.py": "5d891f7059218416a2d39e65b914a89ba54237a18d38daa4de9f7ad2b9d7885e",
+      "worker.py": "868d8dd3e172b1db186c74900c82592040ba8e5aadd8b07e14933617183a28eb"
+    }
+  },
+  "doctor_passed": true,
+  "packaged_source_sha256": {
+    "src/arc_agent2/__init__.py": "559a0e53a93bef6015fb4e02dd3cb21fca635128095747e317efcbf3d3482e5c",
+    "src/arc_agent2/__main__.py": "3129adff95e0f38b87ab34cddfc27082c7892bcaec267ff5d40f160fdf55b44a",
+    "src/arc_agent2/agent.py": "700fd5822009cf5b4634e9a530969d2d189e64e3d5d8d4dff19067dda1909830",
+    "src/arc_agent2/cli.py": "2c2abfbba38c0ab18d03020f23230ff85e90f6dc16e0f6ca9525c47fca548bf4",
+    "src/arc_agent2/components.py": "44846a84d636dc3af951cdc762eb1b6fbb12e9e8cc33ec25bfb5160fe5eeddc6",
+    "src/arc_agent2/learning.py": "8bb615019ddb5384befc3645c0ccfe84bcb488b60e1d7c81a062479e3905c3df",
+    "src/arc_agent2/logic.py": "613171782cb6907dfbd56d3a0318d7275d6efd6affd3ad7b4452a4a23970bc31",
+    "src/arc_agent2/perception.py": "5d891f7059218416a2d39e65b914a89ba54237a18d38daa4de9f7ad2b9d7885e",
+    "src/arc_agent2/worker.py": "868d8dd3e172b1db186c74900c82592040ba8e5aadd8b07e14933617183a28eb"
+  },
+  "packaged_source_note": "The doctor command was corrected after the gameplay verification; agent behavior modules are unchanged from that run."
+}

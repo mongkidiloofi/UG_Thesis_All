@@ -1,0 +1,90 @@
+[
+  {
+    "run": "ls20_seed0",
+    "game": "ls20-9607627b",
+    "actions": 126,
+    "level_completions": [
+      {
+        "step": 59,
+        "before": 0,
+        "after": 1
+      }
+    ],
+    "levels_completed": 1,
+    "stop_state": "GameState.GAME_OVER",
+    "resets": 0,
+    "seconds": 27.90811708000001,
+    "position_predictions": 119,
+    "position_correct": 113,
+    "patch_predictions": 168,
+    "patch_correct": 166,
+    "patch_changes": 20,
+    "changed_patch_predictions": 14,
+    "changed_patch_correct": 12,
+    "popper_calls": 11,
+    "accepted_popper_calls": 11
+  },
+  {
+    "run": "ls20_seed1",
+    "game": "ls20-9607627b",
+    "actions": 127,
+    "level_completions": [
+      {
+        "step": 60,
+        "before": 0,
+        "after": 1
+      }
+    ],
+    "levels_completed": 1,
+    "stop_state": "GameState.GAME_OVER",
+    "resets": 0,
+    "seconds": 26.741519468000206,
+    "position_predictions": 120,
+    "position_correct": 115,
+    "patch_predictions": 164,
+    "patch_correct": 162,
+    "patch_changes": 14,
+    "changed_patch_predictions": 8,
+    "changed_patch_correct": 6,
+    "popper_calls": 10,
+    "accepted_popper_calls": 10
+  },
+  {
+    "run": "ft09",
+    "game": "ft09-0d8bbf25",
+    "actions": 80,
+    "level_completions": [],
+    "levels_completed": 0,
+    "stop_state": "GameState.NOT_FINISHED",
+    "resets": 0,
+    "seconds": 9.96159803899991,
+    "position_predictions": 0,
+    "position_correct": 0,
+    "patch_predictions": 113,
+    "patch_correct": 110,
+    "patch_changes": 4,
+    "changed_patch_predictions": 2,
+    "changed_patch_correct": 1,
+    "popper_calls": 3,
+    "accepted_popper_calls": 3
+  },
+  {
+    "run": "cn04",
+    "game": "cn04-2fe56bfb",
+    "actions": 60,
+    "level_completions": [],
+    "levels_completed": 0,
+    "stop_state": "GameState.NOT_FINISHED",
+    "resets": 0,
+    "seconds": 11.177098362999914,
+    "position_predictions": 0,
+    "position_correct": 0,
+    "patch_predictions": 1,
+    "patch_correct": 0,
+    "patch_changes": 46,
+    "changed_patch_predictions": 1,
+    "changed_patch_correct": 0,
+    "popper_calls": 7,
+    "accepted_popper_calls": 2
+  }
+]

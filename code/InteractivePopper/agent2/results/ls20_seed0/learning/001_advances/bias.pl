@@ -1,0 +1,23 @@
+:- clause(C), #count{V : var_type(C,V,example)} != 1.
+body_pred(button_2,1).
+body_pred(button_4,1).
+body_pred(context,1).
+body_pred(has_c3,1).
+body_pred(has_c4,1).
+body_pred(lacks_c3,1).
+body_pred(lacks_c4,1).
+body_pred(unequal_c3,1).
+body_pred(unequal_c4,1).
+head_pred(advances,1).
+max_body(3).
+max_vars(1).
+type(advances,(example,)).
+type(button_2,(example,)).
+type(button_4,(example,)).
+type(context,(example,)).
+type(has_c3,(example,)).
+type(has_c4,(example,)).
+type(lacks_c3,(example,)).
+type(lacks_c4,(example,)).
+type(unequal_c3,(example,)).
+type(unequal_c4,(example,)).

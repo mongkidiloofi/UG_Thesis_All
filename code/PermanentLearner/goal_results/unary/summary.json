@@ -1,0 +1,19 @@
+{
+  "template": "unary",
+  "runs": 10,
+  "metrics": {
+    "examples_to_convergence": {
+      "mean": 5.5,
+      "spread": 3.905124837953327,
+      "n": 10
+    },
+    "held_out_agreement": {
+      "mean": 1.0,
+      "spread": 0.0,
+      "n": 10
+    }
+  },
+  "spurious_convergence_runs": 0,
+  "syntactically_identical_runs": 0,
+  "agreement_without_syntactic_identity_runs": 10
+}

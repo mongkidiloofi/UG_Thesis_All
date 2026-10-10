@@ -1,0 +1,36 @@
+{
+  "game": "relational",
+  "seed": 9,
+  "training_examples": 21,
+  "training_positive": 4,
+  "training_negative": 17,
+  "held_out_examples": 31,
+  "held_out_positive": 6,
+  "held_out_negative": 25,
+  "interaction_steps": 240,
+  "goal_induction_calls": 1,
+  "goal_induction_call_indices": [
+    2
+  ],
+  "examples_to_convergence": 2,
+  "goal_induction_seconds": 0.23291305202292278,
+  "held_out_agreement": 1,
+  "held_out_precision": 1.0,
+  "held_out_recall": 1.0,
+  "true_rule": "goal(S):- adjacent(S,X,Y), object_color(S,X,C), object_color(S,Y,C).",
+  "learned_rule": "goal(A):- adjacent(A,C,B),object_color(A,B,D),object_color(A,C,D).",
+  "syntactically_identical": true,
+  "planning_seconds": 0.04334094194928184,
+  "plan_actions": [
+    "right",
+    "right",
+    "right",
+    "right",
+    "right",
+    "right"
+  ],
+  "plan_length": 6,
+  "planning_success": true,
+  "failure_reason": "",
+  "runtime_seconds": 0.28797399200266227
+}

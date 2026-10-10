@@ -1,0 +1,14 @@
+[
+  {
+    "rotation": 0,
+    "levels": 2,
+    "actions": 27,
+    "goal_program": "progress(V0):- has_c12(V0).\n"
+  },
+  {
+    "rotation": 1,
+    "levels": 2,
+    "actions": 28,
+    "goal_program": "progress(V0):- unequal_c5(V0).\n"
+  }
+]
